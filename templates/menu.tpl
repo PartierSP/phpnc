@@ -7,7 +7,7 @@
 	<p><a href="send.php" class="w3-button">Send File</a></p>
 	<p>Recieve File</p>
 	<p><a href="machine.php" class="w3-button">Edit Machine Settings</a></p>
-	<p><a href="etimport.php" class="w3-button">Import EasyTalk directory</a></p>
+	{if $showetimport eq 1}<p><a href="etimport.php" class="w3-button">Import EasyTalk directory</a></p>{/if}
 </div>
 
 {include file="footer.tpl"}

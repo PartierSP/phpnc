@@ -6,3 +6,6 @@ inc_dbconnect.php
 
 # Data directory
 /data
+
+# KWrite swap files
+*.kate-swp
