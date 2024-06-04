@@ -1,0 +1,36 @@
+#proglist {
+	background-color:	white;
+}
+
+td {
+	border:				0px #DDD solid;
+	padding:			0px;
+	margin:				0px;
+	cursor:				pointer;
+//	background-color:	white;
+}
+
+.selected {
+	background-color:	brown;
+	color:				#FFF;
+}
+
+.highlight {
+	background-color:	blue;
+	color:				#FFF;
+}
+
+tbody {
+	display:			block;
+	height:				500px;
+	overflow-y:			auto;
+}
+
+thead tr {
+	display:			block;
+	width:				100%;
+}
+
+textarea{
+	text-transform:		uppercase;
+}
